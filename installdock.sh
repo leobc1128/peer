@@ -4,7 +4,6 @@ CURRENT_DIR=$(
  cd "$(dirname "$0")"
  pwd
 )
- 
 #Install docker 
 if which docker >/dev/null; then
  echo "检测到 Docker 已安装，跳过安装步骤"
@@ -34,7 +33,6 @@ else
   service docker start 2>&1 | tee -a ${CURRENT_DIR}/install.log
  fi
 fi
- 
 ##Install Latest Stable Docker Compose Release
 if which docker-compose >/dev/null; then
  echo "检测到 Docker Compose 已安装，跳过安装步骤"
