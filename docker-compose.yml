@@ -1,0 +1,153 @@
+version: '3.2'
+services:
+  Peer2Profit1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit5:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit6:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit7:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit8:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit9:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+  Peer2Profit10:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=liubc1128@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "liubc1128@gmail.com"
+
+
+
+ 
