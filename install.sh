@@ -9,12 +9,12 @@ if [ ! -d "/usr/bin/docker" ]; then
   systemctl enable docker
 fi
 clear
-read -p "Your Mail:" mail_add 
-read -p "Docker Num:" num 
+read -p "liubc1128@gmail.com:" mail_add 
+read -p "40:" num 
 
 clear
 echo "liubc1128@gmail.com:"$mail_add
-echo "30:":$num
+echo "40:":$num
 clear
 
 for ((i=1;i<=$num;i++))
