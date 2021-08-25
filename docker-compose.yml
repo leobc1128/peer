@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  per2profit:
+    deploy:
+      mode: replicated
+      replicas: 3
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+    image: enwaiax/peer2profit:latest
+    command: ["/app/p2pclient", "-l", "${email}"]
