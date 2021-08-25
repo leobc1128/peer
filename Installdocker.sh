@@ -20,7 +20,7 @@ function parse_args() {
                 shift
                 ;;
             *)
-                error "Unknown argument: $1"
+                
                 exit 1
         esac
     done
