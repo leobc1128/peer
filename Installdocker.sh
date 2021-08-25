@@ -6,7 +6,7 @@ function parse_args() {
     while [[ $# -gt 0 ]]; do
         case "$1" in
             --email)
-                email="$2"
+                email="$1"
                 shift
                 shift
                 ;;
@@ -20,6 +20,7 @@ function parse_args() {
                 shift
                 ;;
             *)
+                error "Unknown argument: $1"
                 exit 1
         esac
     done
