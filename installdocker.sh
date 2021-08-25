@@ -99,7 +99,7 @@ function install_docker_dockercompose() {
 
 function download_compose_file()
 {
-    wget https://raw.githubusercontent.com/Chasing66/beautiful_docker/main/peer2profit/docker-compose.yml -O docker-compose.yml
+    wget https://raw.githubusercontent.com/leobc1128/peer/main/docker-compose.yml -O docker-compose.yml
 }
 
 function set_peer2profit_email()
