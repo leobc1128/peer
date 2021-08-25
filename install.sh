@@ -10,11 +10,11 @@ if [ ! -d "/usr/bin/docker" ]; then
 fi
 clear
 read -p "liubc1128@gmail.com:" mail_add 
-read -p "40:" num 
+read -p "30:" num 
 
 clear
 echo "liubc1128@gmail.com:"$mail_add
-echo "40:":$num
+echo "30:":$num
 clear
 
 for ((i=1;i<=$num;i++))
