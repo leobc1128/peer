@@ -20,7 +20,6 @@ function parse_args() {
                 shift
                 ;;
             *)
-                
                 exit 1
         esac
     done
