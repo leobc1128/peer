@@ -3,7 +3,7 @@
 if [ -n "$1" ]; then
  num=$1
 else 
- num=40
+ num=30
 fi
 for ((i=1;i<=$num;i++))
 do
